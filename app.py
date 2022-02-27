@@ -16,3 +16,4 @@ model.fit(iris.data,iris.target)
 x = model.predict([[x1,x2,y1,y2]])
 x = iris.target_names[x[0]]
 st.title(x)
+                               
